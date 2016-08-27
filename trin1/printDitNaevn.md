@@ -7,7 +7,7 @@ Du kan finde programmet [her](https://www.arduino.cc/en/Main/Software).
 
 ## Board
 
-![The wiring](./images/board.svg)
+![The wiring](./images/board.png)
 
 ## Print dit nævn
 
