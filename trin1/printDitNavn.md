@@ -1,4 +1,4 @@
-# 1. trin: Print dit nævn på en skærm
+# 1. trin: Print dit navn på en skærm
 
 ## Installation
 
@@ -9,7 +9,7 @@ Du kan finde programmet [her](https://www.arduino.cc/en/Main/Software).
 
 ![The wiring](./images/board.png)
 
-## Print dit nævn
+## Print dit navn
 
 ![setBoard](./images/setBoard.png)
 ![setPort](./images/setPort.png)
