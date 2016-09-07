@@ -51,5 +51,8 @@ void loop()
 ```
 ## Udfordring
 
-Prøve at bygge en kredsløb hvor du kan se på skærmen
-hvor meget du har trykket på knappen.
+Prøve at bygge en kredsløb, der består at både en knap og en skærm.
+Skrive så et program der printer på skærmen
+hvor ofte du har trykket på knappen.
+
+Du kan finde et eksempel [her](udfordring/udfordring.ino)
