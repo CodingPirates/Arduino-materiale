@@ -42,13 +42,11 @@ const byte rows = 4;
 const byte cols = 5;
 
 // Define string for each key.
-const char * keys[rows][cols] =
-{
-    {"F1",   "F2", "#",     "*"},
-    {"1",    "2",  "3",     "up"},
-    {"4",    "5",  "6",     "down"},
-    {"7",    "8",  "9",     "Esc"},
-    {"left", "0",  "right", "Ent"}
+char keys[rows][cols] = {
+  {'l','7','4', '1', 'f'},
+  {'0','8','5', '2', 'g'},
+  {'r','9','6', '3', '#'},
+  {'x','e','d', 'u', '*'}
 };
 
 // Define row pins.
