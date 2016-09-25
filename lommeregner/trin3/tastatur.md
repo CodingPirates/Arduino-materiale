@@ -49,10 +49,10 @@ char keys[rows][cols] = {
 };
 
 // Define row pins.
-byte rowPins[rows] = {6, 7, 8, 9};
+byte rowPins[rows] = {13, 12, 11, 10};
 
 // Define column pins.
-byte colPins[cols] = {10, 11, 12, 13};
+byte colPins[cols] = {9, 8, 7, 6};
 
 // Initialize the keypad.
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, rows, cols);
