@@ -84,3 +84,5 @@ I terminalen kan du se signaler fra arduino'en mens programmet kører.
 
 Prøv at bygge en kredsløb med både en skærm og et tastatur.
 Skriv så et program sådan at men kan bruge tastaturet til at skrive et nummer på skærmen.
+
+Du kan finde et eksempel [her](./keypadAndLcd/keypadAndLcd.ino)
