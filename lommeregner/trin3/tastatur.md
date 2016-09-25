@@ -3,27 +3,26 @@
 I stedet for en masse knapper vil vi bruge et tastatur med flere knapper.
 
 <img src="images/keypad.jpg" width="400">
-<!-- ![](images/keypad.jpg) -->
 
 ## Hvordan?
 
 En kredsløb med flere knapper kan blive meget kompleks,
-fordi knapper bruger strøm og hver knap tag en digital pin på arduino'en.
+fordi knapperne bruger strøm og hver knap tag en digital pin på arduino'en.
 
-Til gengæld har et tastatur med 20 knapper kun behov for 9 digitale pins.
+Til gengæld har et tastatur med 16 knapper kun behov for 8 digitale pins.
 Kan du forklare hvorfor?
 
-![](images/keypadWiringAnnotated.jpg)
+<img src="images/keypadWiring.png" width="400">
 
 ## Board
 
-Forbind tastaturets 9 output pins med 9 digitale pins på arduino'en:
+Forbind tastaturets 8 output pins med 8 digitale pins på arduino'en:
 
-- Første output pin med digital pin 1.
-- Anden output pin med digital pin 2.
+- Første output pin med digital pin 13.
+- Anden output pin med digital pin 12.
 - osv.
 
-![](images/keypadNumberedOutputs.jpg)
+![](images/board.png)
 
 ## Kode
 
@@ -39,21 +38,21 @@ Inden vi kan starte, skal 'Keypad' biblioteket installeres.
 
 // Define dimensions.
 const byte rows = 4;
-const byte cols = 5;
+const byte cols = 4;
 
 // Define string for each key.
 char keys[rows][cols] = {
-  {'l','7','4', '1', 'f'},
-  {'0','8','5', '2', 'g'},
-  {'r','9','6', '3', '#'},
-  {'x','e','d', 'u', '*'}
+    {'1', '2', '3', 'A'},
+    {'4', '5', '6', 'B'},
+    {'7', '8', '9', 'C'},
+    {'*', '0', '#', 'D'}
 };
 
 // Define row pins.
-byte rowPins[rows] = {1, 2, 3, 4};
+byte rowPins[rows] = {6, 7, 8, 9};
 
 // Define column pins.
-byte colPins[cols] = {5,6,7,8,9};
+byte colPins[cols] = {10, 11, 12, 13};
 
 // Initialize the keypad.
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, rows, cols);
@@ -83,5 +82,5 @@ I terminalen kan du se signaler fra arduino'en mens programmet kører.
 
 ## Tastatur og skærm
 
-Prøv at bygge en kredsløb med báde en skærm og et tastatur.
+Prøv at bygge en kredsløb med både en skærm og et tastatur.
 Skriv så et program sådan at men kan bruge tastaturet til at skrive et nummer på skærmen.
