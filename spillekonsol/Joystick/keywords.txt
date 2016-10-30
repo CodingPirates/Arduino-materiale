@@ -1,0 +1,6 @@
+JoystickPosition KEYWORD1
+Joystick KEYWORD1
+
+begin KEYWORD2
+pressed KEYWORD2
+position KEYWORD2
