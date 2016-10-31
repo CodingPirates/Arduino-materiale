@@ -50,3 +50,9 @@ Joystickets tre funktioner kan kombineres. Så vi skubbe joysticket skråt til h
 - (0.0, 1.0)
 - (1.0, 0.0)
 - (1.0, 1.0)
+
+## Bevæg en sprite
+
+Tegne en sprite på skærmen og gør det muligt at bevæge
+den sprite fra venstre til højre med joysticken.
+Du kan finde et eksempel [her](./moveSprite/moveSprite.ino)
