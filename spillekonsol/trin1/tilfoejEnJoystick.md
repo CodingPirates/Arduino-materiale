@@ -45,8 +45,7 @@ void loop()
     lcd.print(position.y);
 }
 ```
-Joystickets tre funktioner kan kombineres. Så vi skubbe joysticket skråt til højre og op og samtidig trykke på det som en knap. Derved kan vi både angive en x og y-position samt et knap tryk. Prøve at rykke joysticket til de forskellige positioner og set hvordan tallene ændre sig på LCD skærmen. Hvad skal du gøre for at få angivet de følgende koordinater på skærmen
-  ( x ,  y )
+Joystickets tre funktioner kan kombineres. Så vi skubbe joysticket skråt til højre og op og samtidig trykke på det som en knap. Derved kan vi både angive en x og y-position samt et knap tryk. Prøve at rykke joysticket til de forskellige positioner og set hvordan tallene ændre sig på LCD skærmen. Hvad skal du gøre for at få angivet de følgende koordinater på skærmen ( x ,  y )?
 - (0.0, 0.0) 
 - (0.0, 1.0)
 - (1.0, 0.0)
